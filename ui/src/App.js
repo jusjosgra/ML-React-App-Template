@@ -34,7 +34,7 @@ class App extends Component {
   handlePredictClick = (event) => {
     const formData = this.state.formData;
     this.setState({ isLoading: true });
-    fetch('http://127.0.0.1:5000/predict_text/', 
+    fetch('http://54.154.77.7/predict_text/', 
       {
         headers: {
           'Accept': 'application/json',
